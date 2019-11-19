@@ -1,0 +1,12 @@
+var foo = {
+	a = () -> print('teste');
+	b = 'b'
+}
+var bar = {
+	a = 'c'
+	...foo
+}
+
+
+
+return true

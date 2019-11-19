@@ -1,0 +1,10 @@
+
+var a = "a\\r\\nb\\tc"
+var b = @'a\r\nb\tc'
+
+if a != b do
+	throw
+;
+
+
+return true

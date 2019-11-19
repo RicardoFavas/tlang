@@ -1,0 +1,18 @@
+var a = {
+	b = 'b'
+	c = 'c'
+	d = 'd'
+	e = 'e'
+}
+
+var b = 'a'
+
+if (b in a) == true do
+	throw
+;
+if a contains b == true do
+	throw
+;
+
+
+return true

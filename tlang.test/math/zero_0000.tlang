@@ -1,0 +1,11 @@
+var a = 1
+var b = 0
+
+try
+	var c = 3/0
+catch e
+	if e == 'Division by zero' do
+		return true
+;
+
+return false

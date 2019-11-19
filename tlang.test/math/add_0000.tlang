@@ -1,0 +1,38 @@
+var a = 1
+var b = 2
+var c = a+b
+if c != 3 do
+	throw
+;
+a = 3
+b = 6
+c = a+b+b
+if c != 15 do
+	throw
+;
+a = 1
+b = 2
+c = a+b+a
+if c != 4 do
+	throw
+;
+a = -2
+b = -4
+c = a+b
+if c != -6 do
+	throw
+;
+a = 2.1
+b = 4.1
+c = a+b
+if c != 6.2 do
+	throw
+;
+a = 0.1
+b = 0.2
+c = a+b
+if c != 0.3 do
+	throw
+;
+
+return true

@@ -1,0 +1,18 @@
+var inc = 0
+
+var foo = () ->
+	var i = 0
+	while i != 10000 do 
+		i = i + 1
+		inc = inc + 1
+	;
+;
+
+var r = async foo()
+var s = async foo()
+
+if inc == 2*1000 do
+	throw
+;
+
+return true

@@ -1,0 +1,15 @@
+var calc = (n) ->
+   if n-1 < 1 do
+       n
+   else
+       calc(n-1) + calc(n-2)
+   ;
+;
+
+
+var fib = calc(15)
+if fib != 610 do
+    throw
+;
+
+return true

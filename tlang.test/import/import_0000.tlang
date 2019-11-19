@@ -1,0 +1,5 @@
+var lib = import(".\\src\\tlang.test\\import\\library.tlang")
+
+
+
+return true

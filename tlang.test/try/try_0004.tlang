@@ -1,0 +1,12 @@
+var foo = () ->
+	throw
+;
+
+var r = false
+try
+	foo()
+catch
+	r = true
+;
+
+return r

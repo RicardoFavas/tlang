@@ -1,0 +1,15 @@
+var foo = () ->
+	throw true
+;
+
+var a = false
+var r = async foo()
+
+try
+	await(r)
+catch e
+	a = e
+;
+
+
+return a

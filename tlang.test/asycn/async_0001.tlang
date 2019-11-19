@@ -1,0 +1,20 @@
+#!
+
+var foo = () ->
+	var i = 0
+	while i != 10000 do 
+		i = i + 1
+	;
+	return i
+;
+
+var r = async foo()
+var s = async foo()
+
+print(r)
+
+if r+s != 2*10000 do
+	throw
+;
+
+return true

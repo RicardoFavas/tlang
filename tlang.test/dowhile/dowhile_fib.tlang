@@ -1,0 +1,18 @@
+var prev = 0
+var current = 1
+var fib
+
+var n = 0
+
+do 
+	fib = prev + current
+    prev = current
+    current = fib
+    n = n + 1
+while n < 100
+
+if fib != 573147844013817084101 do
+	throw
+;
+
+return true

@@ -1,0 +1,11 @@
+
+var a = "a\r\nb"
+var b = 'a
+b'
+
+if a != b do
+	throw
+;
+
+
+return true

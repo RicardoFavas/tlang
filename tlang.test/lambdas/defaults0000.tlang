@@ -1,0 +1,11 @@
+var a = (b = 1) -> 
+	b
+;
+if a() != 1 do
+	throw
+;
+if a(5) != 5 do
+	throw
+;
+
+return true

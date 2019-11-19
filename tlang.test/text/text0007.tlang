@@ -1,0 +1,14 @@
+var a = 'a\r\nb	c'
+var b = @"a
+b	c"
+
+print(a)
+print(b)
+
+
+if a != b do
+	throw
+;
+
+
+return true

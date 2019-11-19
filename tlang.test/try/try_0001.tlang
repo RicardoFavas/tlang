@@ -1,0 +1,8 @@
+var r = null
+try
+	r = true
+catch
+	r = false
+;
+
+return r

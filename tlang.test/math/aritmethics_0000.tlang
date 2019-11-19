@@ -1,0 +1,57 @@
+var a = 2*3+4
+if a != 10 do
+	throw a
+;
+a = 2*3*(4+5)
+if a != 54 do
+	throw
+;
+a = 2*3+(4+5)
+if a != 15 do
+	throw
+;
+a = 2+3+(4*5)
+if a != 25 do
+	throw
+;
+a = -(2)
+if a != -2 do
+	throw
+;
+
+
+
+a = 2+3+(4*5+6)
+if a != 31 do
+	throw
+;
+a = 2+3+(4*5+6)+7
+if a != 38 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8
+if a != 87 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8-9
+if a != 78 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8-9*10
+if a != -3 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8-9*10+12/12
+if a != -2 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8-9*10+12/12*(13)
+if a != 10 do
+	throw
+;
+a = 2+3+(4*5+6)+7*8-9*10+12/12*(13)+14/(14*16)
+if a != 10.0625 do
+	throw
+;
+
+return true

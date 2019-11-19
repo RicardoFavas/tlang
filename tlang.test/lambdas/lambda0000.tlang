@@ -1,0 +1,46 @@
+var a = () -> 1;
+if a() != 1 do
+	throw
+;
+
+a = (b) -> b;
+if a(1) != 1 do
+	throw
+;
+
+if a(2) != 2 do	
+	throw
+;
+
+var c = 3
+a = (b) -> c;
+if a() != 3 do
+	throw
+;
+
+c = 3
+a = (b) -> b+c;
+if a(2) != 5 do
+	throw
+;
+
+var a = (a) ->
+	var b = (b) ->
+		var c = (c) ->
+			var d = (d) ->
+				var e = (e) ->
+					e
+				;
+				e(d)+1
+			;
+			d(c)+2
+		;
+		c(b)+3
+	;
+	b(a)+4
+;
+if a(1) != 11 do
+	throw
+;
+
+return true

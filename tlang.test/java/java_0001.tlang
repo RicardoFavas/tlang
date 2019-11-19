@@ -1,0 +1,14 @@
+var a = java(@'
+
+import tlang.objects.TLangObject;
+
+public class T extends TLangObject {
+
+
+}
+
+')
+
+
+
+return true

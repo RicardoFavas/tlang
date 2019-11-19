@@ -1,0 +1,18 @@
+var a = 1e3
+if a != 1000 do
+	throw
+;
+a = 1e-3
+if a != 0.001 do
+	throw
+;
+a = 2e0
+if a != 2 do
+	throw
+;
+a = 3e-0
+if a != 3 do
+	throw
+;
+
+return true

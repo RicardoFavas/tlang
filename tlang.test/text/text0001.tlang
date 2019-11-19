@@ -1,0 +1,10 @@
+
+var a = "a"
+var b = 'a'
+
+if a != b do
+	throw
+;
+
+
+return true

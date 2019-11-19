@@ -1,0 +1,14 @@
+#skip
+
+return java('
+
+import tlang.objects.*;
+public class Logger extends TLangObject {
+	
+	public static void log(TLangObject message) {
+		System.out.println(message);
+	}
+	
+}
+
+')

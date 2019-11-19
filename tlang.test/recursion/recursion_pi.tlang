@@ -1,0 +1,18 @@
+var calc = (n) -> 
+    var tn = (4/(2*n-1)*(-1)^(1-n))
+    if n == 0 do
+        return 0
+    ;
+    if n == 1 do
+        return 4
+    else
+        return tn + calc(n-1)
+    ;
+;
+
+var pi = calc(500)
+if pi != 3.139592655589783238584640613380536 do
+	throw
+;
+
+return true

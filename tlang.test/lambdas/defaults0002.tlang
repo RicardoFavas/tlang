@@ -1,0 +1,17 @@
+var b = 100
+var c = 500
+var d = 3
+
+var a = (b = 1, c = 2) -> 
+	b+c+d
+;
+
+if a() != 6 do
+	throw
+;
+
+if a(2) != 7 do
+	throw
+;
+ 
+return true

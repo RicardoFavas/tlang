@@ -1,0 +1,13 @@
+var foo = () ->
+	throw false
+;
+
+var r = true
+try
+	r = foo()
+catch e
+	nop
+;
+
+
+return r

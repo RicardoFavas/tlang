@@ -1,0 +1,14 @@
+var calc = (n) ->
+    if n == 1 do
+    	1
+	else
+		n * calc(n-1)
+	;
+;
+
+var fact = calc(19)
+if fact != 121645100408832000 do
+	throw
+;
+
+return true

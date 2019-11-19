@@ -1,0 +1,18 @@
+var a = (b,c,d,e,f) ->
+	b+c+d+e+f
+;
+if a(1,2,3,4,5) != 15 do
+	throw
+;
+
+var a = (b = 6, c = 7, d = 8, e = 9, f = 10) ->
+	b+c+d+e+f
+;
+if a() != 40 do
+	throw
+;
+if a(1,2) != 30 do
+	throw
+;
+
+return true

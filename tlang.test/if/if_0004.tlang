@@ -1,0 +1,5 @@
+if true	do
+	return true
+;
+
+return false

@@ -1,0 +1,12 @@
+var obj = {
+	a = 1
+	b = 2
+	c = 3	
+	$get = (attr) ->
+		1
+}
+
+if obj.g+2 != 3 do
+	throw
+
+return true

@@ -1,0 +1,5 @@
+var Logger = import(".\\src\\tlang.test\\import\\Logger.tlang")
+
+
+
+return true

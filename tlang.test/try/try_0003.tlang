@@ -1,0 +1,9 @@
+
+var r = false
+try
+	throw true
+catch e
+	r = e
+;
+
+return r

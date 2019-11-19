@@ -1,0 +1,16 @@
+var a = 0
+
+var obj = {
+	foo = () -> 3;
+	a = a + 1
+}
+
+if obj.foo() != 3 do
+	throw
+;
+
+if a != 1 do
+	throw
+;
+
+return true

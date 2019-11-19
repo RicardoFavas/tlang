@@ -1,0 +1,49 @@
+
+return true
+
+#var earth = {
+#	europe = {
+#		portugal = 'portugal' russia = 'russia' spain = 'spain'
+#	}
+#	asia = {
+#		china = 'china' india = 'india' mongolia = 'mongolia'
+#	}
+#	north_america = {
+#		usa = 'usa' mexico = 'mexico' canada = 'canada'
+#	}
+#	south_america = {
+#		brazil = 'brazil' peru = 'peru' chile = 'chile'
+#	}
+#	africa = { 
+#		angola = 'angola' egypt = 'egypt' mozambique = 'mozambique'
+#	}
+#	oceania = {
+#		australia = 'australia' samoa = 'samoa' figi = 'figi'
+#	}
+#}
+
+#var a = earth?.europe		
+#if a != earth.europe do
+#	throw
+#;
+#var a = earth?.europe?.portugal
+#if a != 'portugal' do
+#	throw
+#;	
+
+#var a = earth?.europe
+#if a != earth.europe do
+#	throw
+#;
+#var a = earth?.europe?.PORTUGAL
+#if a != null do
+#	throw
+#;
+
+
+#var a = earth?.europe?.PORTUGAL : 'not found'
+
+
+return true
+
+

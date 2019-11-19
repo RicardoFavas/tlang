@@ -1,0 +1,23 @@
+var i = 0
+var foo = () ->
+	if i == 4 do
+		i = i + 1
+	else
+		throw true
+	;
+;
+
+var a = false
+var r = async foo()
+var s = async foo()
+var t = async foo()
+var u = async foo()
+
+try
+	await(r)
+catch e
+	a = e
+;
+
+
+return a

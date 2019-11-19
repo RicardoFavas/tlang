@@ -1,0 +1,13 @@
+var fact = 1
+var n = 20
+var i = 1
+do
+	fact = fact * i
+	i = i + 1
+while i < n
+
+if fact != 121645100408832000 do
+	throw
+;
+
+return true

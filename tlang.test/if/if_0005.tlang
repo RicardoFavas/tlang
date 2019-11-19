@@ -1,0 +1,13 @@
+var a = false
+
+a = if true do
+		if true do
+			if true do
+				if true do
+					return true
+				;
+			;
+		;
+	;
+
+return a

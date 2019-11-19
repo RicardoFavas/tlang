@@ -1,0 +1,25 @@
+#var earth = {
+#	europe = {
+#		portugal = {} russia = {} spain = {} england = {}
+#	}
+#	asia = {
+#		china = {} india = {} mongolia = {}
+#	}
+#	north_america = {
+#		usa = {} mexico = {} canada = {}
+#	}
+#	south_america = {
+#		brazil = {} peru = {} chile = {}
+#	}
+#	africa = { 
+#		angola = {} egypt = {} mozambique = {}
+#	}
+#	oceania = {
+#		australia = {} samoa = {} figi = {}
+#	}
+#}
+
+
+
+
+return true

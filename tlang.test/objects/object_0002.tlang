@@ -1,0 +1,13 @@
+var a = 0
+
+var obj = (b) -> {
+		foo = () -> 3;
+		c = b
+	}
+;
+
+if obj(4).c != 4 do
+	throw
+; 
+
+return true

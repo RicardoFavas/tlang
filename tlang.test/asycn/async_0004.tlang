@@ -1,0 +1,16 @@
+var i = 0
+var foo = () ->
+	return true
+;
+
+var a = false
+
+try
+	await(r)
+	a = true
+catch e
+	a = e
+;
+
+
+return a

@@ -1,0 +1,9 @@
+var a = 0
+
+if a != 0 do
+	return false
+else
+	return true
+;
+
+return false

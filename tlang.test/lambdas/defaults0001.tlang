@@ -1,0 +1,13 @@
+var a = (b = 1, c = 2) -> 
+	b+c
+;
+
+if a() != 3 do
+	throw
+;
+
+if a(2) != 4 do
+	throw
+;
+
+return true

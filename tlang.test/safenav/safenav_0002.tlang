@@ -1,0 +1,27 @@
+#
+#return true
+
+#var a = {}
+
+#var z = a
+#if z == null do
+#	throw 'z não pode ser null'
+#;
+
+#var z = a.b
+#tem de dar erro porque b não existe em a
+
+#var z = a?.b
+#tem de dar erro porque b não existe em a
+
+#var z = a?.b
+#if z != null do
+#	throw 'z tem de ser null'
+#;
+
+#var z = a?.b? : 'yes'
+#if z != 'yes' do
+#	throw 'z tem de ser "yes"'
+#;
+
+return true

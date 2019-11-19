@@ -1,0 +1,20 @@
+#var a = 0
+#if a == 0 do
+#	print('a')
+#	print('b')
+#	print('c')
+#;
+#while a != 2 do
+#	a = a + 1
+#	print('h')
+#;
+#print('asdsa')
+#var foo = () -> print('g');
+#print('asddfdsfsd')
+#var g = {
+#	agd = 5
+#}
+#print(g)
+#print('x')
+
+return true

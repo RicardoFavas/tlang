@@ -1,0 +1,107 @@
+
+var a = {
+	b = {
+		c = {
+			d = 'e'
+		}
+	}
+}
+
+if a.b.c.d != 'e' do
+	throw '1'
+
+var f = {
+	'f' = {
+		'f' = {
+			'f' = 'f'
+			'a' = a
+		}
+	}
+}
+
+if f.f.f.f != 'f' do
+	throw '2'
+
+if f.f.f.a.b.c.d != 'e' do
+	throw '3'
+
+var g = 'g'
+var h = 'h'
+var i = 'i'
+var j = {
+	g = {
+		h = {
+			i = i
+		}
+	}
+}
+
+print(j)
+print(g)
+print(h)
+print(i)
+
+
+if j.g.h.i != 'i' do
+	throw '4'
+
+
+return true
+
+var f = "0"
+print(f + " = 0")
+var foo = {
+	f = "1"
+	print(f + " = 1")
+	'f' = "2"
+	print(f = + " = 2)
+}
+print(f + " = 1")
+print(foo.f + " = 2")
+
+var b = "0"
+print(b + " = 0")
+var bar = () -> {
+		b = 1
+		'b' = 2
+		print(this)
+	}
+print(b + " = 0")
+var z = bar()
+
+print(b + " = 1")
+print(z.b + " = 2")
+
+
+print(obj)
+print(obj())
+print(obj().a)
+print(obj().b)
+
+return true
+
+
+
+var b = "b"
+var a = {
+	b = "b"
+	'c' = "c"
+}
+
+var a = {
+	b = "b"
+	c = {
+		d = "d"
+	}
+}
+
+
+var b = "0"
+var bar = () -> {
+		b = 1
+		'b' = 2
+	}
+var z = bar()
+
+print(b + " = 1")
+print(z.b + " = 2")

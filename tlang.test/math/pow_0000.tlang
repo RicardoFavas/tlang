@@ -1,0 +1,22 @@
+var a = 2^2
+if a != 4 do
+	throw
+;
+a = 2^8
+if a != 256 do
+	throw
+;
+a = 2^-8
+if a != 0.00390625 do
+	throw
+;
+a = -2^8
+if a != -256 do
+	throw
+;
+a = (-2)^-8
+if a != 0.00390625 do
+	throw
+;
+
+return true

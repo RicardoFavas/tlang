@@ -1,0 +1,15 @@
+#skip
+var System = java('
+
+import tlang.objects.*;
+public class System extends TLangObject {
+	
+	public static void sleep(TLangNumber milliseconds) throws Exception {
+		Thread.sleep(milliseconds.value.longValue());
+	}
+	
+}
+
+')
+
+System
