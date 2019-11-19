@@ -1,6 +1,6 @@
 "# tlang" 
 
-Programming language with based on python with nive async capabilities
+Programming language based on python with nice async capabilities
 
 var foo = () ->
 	var i = 0
