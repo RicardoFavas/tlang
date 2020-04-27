@@ -1,7 +1,8 @@
-"# tlang" 
+# tlang
 
-Programming language based on python with nice async capabilities
+#Programming language based on python with nice async capabilities
 
+```
 var foo = () ->
 	var i = 0
 	while i != 10000 do 
@@ -13,3 +14,4 @@ var s = async foo()
 
 if r+s != 2*10000 do
 	throw 'it should be 20000'
+```
